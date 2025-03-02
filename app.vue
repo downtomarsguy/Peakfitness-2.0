@@ -5,6 +5,8 @@
     <HeroSection />
 
     <ProgramSection />
+
+    <NutritionSection />
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 import Navbar from "./components/Navbar.vue";
 import HeroSection from "./components/HeroSection.vue";
 import ProgramSection from "./components/ProgramSection.vue";
+import NutritionSection from "./components/NutritionSection.vue";
 
 export default {
   name: 'App',
@@ -19,6 +22,7 @@ export default {
     Navbar,
     HeroSection,
     ProgramSection,
+    NutritionSection,
   },
 };
 </script>
