@@ -1,20 +1,24 @@
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="flex flex-col">
     <Navbar />
+    
+    <HeroSection />
 
-      <HeroSection />
+    <ProgramSection />
   </div>
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
 import HeroSection from "./components/HeroSection.vue";
+import ProgramSection from "./components/ProgramSection.vue";
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    HeroSection
+    HeroSection,
+    ProgramSection,
   },
 };
 </script>
