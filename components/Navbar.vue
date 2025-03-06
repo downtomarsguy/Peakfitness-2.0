@@ -1,32 +1,32 @@
 <template>
-    <nav class="bg-black p-4">
+    <nav class="sticky top-0 bg-black p-4 z-10">
         <div class="flex items-center justify-between">
             <div class="text-white text-2xl font-semibold">
                 FlexNation
             </div>
             <div class="flex space-x-6">
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="material-symbols:energy-program-saving" style="" />
+                    <Icon name="material-symbols:energy-program-saving" />
                     <span>Home</span>
                 </button>
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="ic:round-calculate" style="" />
+                    <Icon name="ic:round-calculate" />
                     <span>Program</span>
                 </button>
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="ic:sharp-fastfood" style="" />
+                    <Icon name="ic:sharp-fastfood" />
                     <span>Nutrition</span>
                 </button>
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="ic:round-calculate" style="" />
+                    <Icon name="ic:round-calculate" />
                     <span>Tools</span>
                 </button>
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="material-symbols:info-rounded" style="" />
+                    <Icon name="material-symbols:info-rounded" />
                     <span>About</span>
                 </button>
                 <button class="text-white hover:text-gray-400 flex items-center space-x-2">
-                    <Icon name="material-symbols:logout-rounded" style="" />
+                    <Icon name="material-symbols:logout-rounded" />
                     <span>Login/Register</span>
                 </button>
             </div>
@@ -36,10 +36,6 @@
 
 <script>
 export default {
-  name: 'Navbar',
+    name: 'Navbar',
 };
 </script>
-
-<style>
-@import "tailwindcss";
-</style>

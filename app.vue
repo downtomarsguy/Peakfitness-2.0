@@ -9,6 +9,8 @@
     <NutritionSection />
 
     <ToolsSection />
+
+    <Footer />
   </div>
 </template>
 
@@ -18,6 +20,7 @@ import HeroSection from "./components/HeroSection.vue";
 import ProgramSection from "./components/ProgramSection.vue";
 import NutritionSection from "./components/NutritionSection.vue";
 import ToolsSection from "./components/ToolsSection.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
@@ -26,7 +29,8 @@ export default {
     HeroSection,
     ProgramSection,
     NutritionSection,
-    ToolsSection
+    ToolsSection,
+    Footer,
   },
 };
 </script>
